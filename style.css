@@ -1,0 +1,337 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 40px;
+    font-weight: 800;
+    float: left;
+    font-family:  'Arial Narrow Bold, sans-serif';
+    color: #ebe0d9;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: rgb(105, 105, 240);
+    z-index: 1;
+    border-bottom: 1px solid#ec8237;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a {
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration:underline ;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.kolom{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 20px;
+    font-family: Arial, Helvetifont-size: 20px;
+    color: #black;
+}
+
+.kolom.deskripsi{
+    font-size: 20px;
+    font-family: Arial, Helvetifont-size: 20px;
+    font-weight: bold;ca, sans-serif;
+    color: #F7A76C;
+}
+
+P{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    text-align: center;
+} 
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 5px;
+    margin-bottom: 20px;
+    color: #f06a0b;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #f06a0b;
+    width: 100%;
+    line-height: 50px;
+}
+
+p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 0px;
+    line-height: 50px;
+   
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px
+    margin-bottom: 0px;
+    margin-top: 0;
+    line-height: 50px;
+}
+
+
+a.tbl-biru{
+    background: #9b4507;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: beige;
+    cursor: pointer;
+    font-weight:bold ;
+}
+
+a.tbl-biru:hover {
+    background: #5d65e2;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #994509;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: beige;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+p{
+    margin: 15px 0 px 15px 0px;
+    padding: 15px 0px 15px 0px;
+}
+a.tbl-pink:hover{
+    background: #6E85B7;
+    text-decoration: none;
+    
+}
+
+img src{
+    margin-right: 10px;
+}
+
+.layanan-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap:nowrap;
+    float: left;
+}
+
+.kartu-layanan{
+    width: 25%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin: 15px 0 px 15px 0px;
+    padding: 15px 0px 15px 0px;
+}
+
+.kartu-layanan img{
+  width: 80%;  
+  border-top: 0%;
+
+}
+
+.kartu-layanan h3{
+    font-family: Verdana;
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+    color: #F7A76C;;
+}
+
+.tengah{
+    text-align: center;
+    width: 100%;
+}
+
+.tim-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tim{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.kartu-tim img{
+    width: 150px;
+    border-radius: 50px;
+    margin-top: 0%;
+
+}
+
+.kartu-tim h3{
+font-family: 'Comic San ms';
+font-weight: 800;
+font-size: 25px;
+text-align: center;
+color: #F7A76C;
+}
+
+.kartu-tim p {
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 5px;
+    text-align: center;
+    color: #F7A76C;
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+
+#kontak{
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+
+.footer-section{
+    width: 20%;
+    margin: 0 auto;
+}
+
+h4{
+    font-family: 'Arial';
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 20 px;
+    color: #F7A76C;
+    width: 100%;
+    line-height: 50px;
+}
+
+.footer-section img{
+    width: 150px;
+    border-radius: 50px;
+    margin-top: 0%;
+    align-items: center;
+}
+
+#copyright{
+    text-align: left;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+@media screen and (max-widht: 991.98px){
+    .wrapper{
+        width: 90%;
+    }
+
+    .logo a{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav.menu{
+        width: 100%;
+        margin: 0;
+    }
+
+    nav.menu ul{
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav.menu ul li{
+        display: inline-block;
+        float: none;
+    }
+
+    section{
+        display: block;
+    }
+
+    section img{
+        display: block;
+        width: 50%;
+        height: auto;
+    }
+
+    .kartu-tim{
+        width: 50%;
+
+    }
+
+    .kartu-layanan{
+        width: 100%;
+    }
+
+    .kartu-sosmed img{
+        cursor: pointer;
+    }
+}
